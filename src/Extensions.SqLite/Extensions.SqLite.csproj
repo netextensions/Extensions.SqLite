@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
     <PropertyGroup>
       <TargetFramework>netcoreapp3.1</TargetFramework>
       <RootNamespace>NetExtensions</RootNamespace>
@@ -10,7 +10,7 @@
       <RepositoryUrl>https://github.com/netextensions/Extensions.SqLite</RepositoryUrl>
       <PackageTags>Extensions.SqLite,.net core</PackageTags>
       <PackageId>NetExtensions.Extensions.SqLite</PackageId>
-      <PackageVersion>1.0.0</PackageVersion>
+      <PackageVersion>1.0.1</PackageVersion>
       <PackageLicenseFile>LICENSE</PackageLicenseFile>
       <Authors>netextensions.io</Authors>
       <PackageIcon>icon.png</PackageIcon>
