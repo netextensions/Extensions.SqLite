@@ -10,7 +10,7 @@
       <RepositoryUrl>https://github.com/netextensions/Extensions.SqLite</RepositoryUrl>
       <PackageTags>Extensions.SqLite,.net core</PackageTags>
       <PackageId>NetExtensions.Extensions.SqLite</PackageId>
-      <PackageVersion>1.0.1</PackageVersion>
+      <PackageVersion>1.0.2</PackageVersion>
       <PackageLicenseFile>LICENSE</PackageLicenseFile>
       <Authors>netextensions.io</Authors>
       <PackageIcon>icon.png</PackageIcon>

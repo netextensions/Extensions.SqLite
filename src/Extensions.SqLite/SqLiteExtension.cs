@@ -6,9 +6,10 @@ namespace NetExtensions
 {
     public static class SqLiteExtension
     {
-        public static IServiceCollection AddSqliteDb<TContext>(this IServiceCollection services, string connectionString) where TContext : DbContext
+        public static IServiceCollection AddSqliteDb<TContext>(this IServiceCollection services, string sqliteDbPath) where TContext : DbContext
         {
-            services.AddDbContext<TContext>(c => c.UseSqlite(connectionString));
+            var connectionString = $"Data Source={sqliteDbPath};";
+            services.AddDbContext<TContext>(c => c.UseSqlite($"Data Source={connectionString};"));
             var options = new DbContextOptionsBuilder<TContext>()
                 .UseSqlite(connectionString)
                 .Options;
